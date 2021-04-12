@@ -1,0 +1,13 @@
+#environment_tag      = "Production"
+cidr_vpc         = "10.0.0.0/16"
+public_subnet_cidr_blocks = ["10.0.0.0/24","10.0.1.0/24","10.0.2.0/24","10.0.3.0/24","10.0.4.0/24"]
+private_subnet_cidr_blocks = ["10.0.6.0/24","10.0.7.0/24"]
+#instance_ami         = "ami-089c6f2e3866f0f14"
+#availability_zone    = "us-east-2a"
+#instance_type        = "t2.micro"
+#access_key           = "AKIAZFWTFX747IPZT2WP"
+#secret_key           = "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"
+#region               = "us-east-2"
+#private_subnets_cidr = "10.0.1.0/24"
+instance_count = "5"
+ec2_instance_type = "t2.micro"
